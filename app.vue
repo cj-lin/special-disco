@@ -15,8 +15,9 @@
       </NuxtLink>
       <h2> Deploy Nuxt 3 app with universal rendering on Azure Static Web Apps using <NuxtLink to="https://docs.microsoft.com/azure/static-web-apps/deploy-nuxtjs" class="styling">the Microsoft documentation</NuxtLink></h2>
     </div>
-    <NuxtWelcome />
+    
   </div>
+  <NuxtPage />
 </template>
 <style>
   .home-page{
