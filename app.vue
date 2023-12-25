@@ -2,7 +2,7 @@
   <div>
     <div class="home-page">
       <h1>Hi! This is a simple Nuxt 3 app.</h1>
-      <h2>Click on the buttons below to check out a server route or an API route :) </h2>
+      <h2>Click on the buttons below to check out a server route or an API route :)</h2>
       <NuxtLink to="/hello" target="_blank">
         <button>
           What Time Is It?
@@ -13,15 +13,16 @@
           Link to API Route
         </button>
       </NuxtLink>
-      <h2> Deploy Nuxt 3 app with universal rendering on Azure Static Web Apps using <NuxtLink
-          to="https://docs.microsoft.com/azure/static-web-apps/deploy-nuxtjs" class="styling">the Microsoft documentation
+      <h2>Deploy Nuxt 3 app with universal rendering on Azure Static Web Apps using
+        <NuxtLink to="https://docs.microsoft.com/azure/static-web-apps/deploy-nuxtjs" class="styling">the Microsoft
+          documentation
         </NuxtLink>
       </h2>
     </div>
-
   </div>
   <NuxtPage />
 </template>
+
 <style>
 .home-page {
   margin: 5px;
@@ -81,4 +82,5 @@ button:hover {
   cursor: pointer;
   background-color: rgb(29, 199, 128);
   transition: 0.2s ease-in;
-}</style>
+}
+</style>
